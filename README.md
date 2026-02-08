@@ -1,5 +1,3 @@
-
-```md
 # Interactive Product Landing Page with Conversion UI
 
 ## 📌 Project Overview
@@ -8,8 +6,9 @@ This project is a fully interactive product landing page designed to simulate a 
 The application allows users to explore pricing plans, view product features, and interact with call-to-action elements similar to modern commercial websites.
 
 ---
+
 ## Link
-http://127.0.0.1:5501/index.html
+   http://127.0.0.1:5501/index.html
 
 ## 🎯 Objectives
 - Build a conversion-focused product landing page
@@ -25,17 +24,14 @@ http://127.0.0.1:5501/index.html
 - JavaScript (ES6) – Interactivity and application logic
 
 ---
-
 ## 📂 Project Structure
-```
-
 product-landing-advanced/
-│── index.html     → UI structure
-│── style.css      → Styling and animations
-│── script.js      → Application functionality
-│── README.md      → Project documentation
+│── index.html → UI structure
+│── style.css → Styling and animations
+│── script.js → Application functionality
+│── README.md → Project documentation
 
-```
+
 ---
 
 ## ✨ Features
@@ -113,5 +109,3 @@ product-landing-advanced/
 ## 📈 Future Enhancements
 - Integration with backend APIs
 - Payment gateway implementation
-- User authentication
----
