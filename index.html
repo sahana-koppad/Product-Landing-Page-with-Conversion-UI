@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Boost Your Productivity</h1>
+  <p>Smart tools designed for modern teams</p>
+  <button class="cta" onclick="handleCTA()">Get Started</button>
+</header>
+
+<section class="pricing" id="pricing">
+  <h2>Choose Your Plan</h2>
+
+  <div class="cards">
+    <div class="card" onclick="selectPlan('Basic', 499, this)">
+      <h3>Basic</h3>
+      <p class="price">₹499 / month</p>
+    </div>
+
+    <div class="card popular" onclick="selectPlan('Pro', 999, this)">
+      <h3>Pro</h3>
+      <p class="price">₹999 / month</p>
+    </div>
+
+    <div class="card" onclick="selectPlan('Enterprise', 1999, this)">
+      <h3>Enterprise</h3>
+      <p class="price">₹1999 / month</p>
+    </div>
+  </div>
+
+  <button class="toggle-features" onclick="toggleFeatures()">
+    View Features
+  </button>
+
+  <ul class="features hidden" id="features">
+    <li>✔ Unlimited Projects</li>
+    <li>✔ Team Collaboration</li>
+    <li>✔ Analytics Dashboard</li>
+    <li>✔ Priority Support</li>
+  </ul>
+
+  <div class="summary" id="summary"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

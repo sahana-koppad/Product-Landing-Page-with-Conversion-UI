@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta {
+  padding: 12px 30px;
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Pricing Section */
+.pricing {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Pricing Cards */
+.card {
+  width: 220px;
+  padding: 25px;
+  border-radius: 15px;
+  background: #f5f5f5;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.4s;
+}
+
+.card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.popular {
+  background: #667eea;
+  color: white;
+}
+
+.selected {
+  border: 3px solid #4caf50;
+}
+
+/* Features */
+.toggle-features {
+  margin-top: 30px;
+  padding: 10px 25px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.features li {
+  margin: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Summary */
+.summary {
+  margin-top: 25px;
+  font-weight: bold;
+  color: #333;
+}
